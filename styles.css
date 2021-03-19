@@ -32,10 +32,19 @@ img {
   width: 80%;
 }
 
+.button{
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+}
+.love{
+  color: rgb(0, 255, 0);
 }
