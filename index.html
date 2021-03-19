@@ -5,15 +5,16 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
+
     <link rel="icon" href="dice.ico">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Press the Button</h1>
 
       <div class="dice">
         <p>Player 1</p>
@@ -24,8 +25,11 @@
         <p>Player 2</p>
         <img class="img2" src="dice6.png">
       </div>
+      
 
-
+    </div>
+    <div class="button">
+      <button class="btn btn-info btn-lg" onclick="rollDice()">Try Again</button>
     </div>
   <script type="text/javascript" src="index.js">
 
@@ -34,6 +38,6 @@
   </body>
 
   <footer>
-    Created by Drigesh
+    Created with <span class="love">♥</span>  by Drigesh
   </footer>
 </html>
